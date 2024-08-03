@@ -50,8 +50,16 @@ function searchAboutTarget(nums, target) {
 
   higher = right;
 
-  return lower <= higher ? [lower, higher] : [-1, -1]
-
+  return if (lower <= higher) {
+    
+    [lower, higher]
+    
+  } else {
+    [-1, -1]
+  }
+  
 }
+
+
 
 console.log(searchAboutTarget())
