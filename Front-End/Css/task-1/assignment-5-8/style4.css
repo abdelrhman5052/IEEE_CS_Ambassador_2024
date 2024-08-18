@@ -1,0 +1,33 @@
+
+.four div{
+  width: 400px;
+  height: 400px;
+  background-color: #ddd;
+  padding: 20px;
+  margin:20px auto;
+}
+
+.assign-4-shape-1{
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.assign-4-shape-2{
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: repeat-y;
+  background-position: right;
+  background-size: 80%;
+}
+.assign-4-shape-3{
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 80%;
+}
+
+.assign-4-shape-4{
+  background-image: url(css-assignment-5-8.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
