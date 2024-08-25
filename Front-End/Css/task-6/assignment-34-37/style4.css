@@ -1,0 +1,29 @@
+.four p{
+  background-color: #eee;
+  width: 400px;
+  padding: 20px;
+  margin: 10px auto;
+  font-weight: bold;
+  position: relative;
+  counter-increment: number;
+}
+.four p::before{
+  content: counter(number);
+  background-color: #f84336;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  float: left;
+  left: -48px;
+  top: 0px;
+}
+.four p::after{
+  content: "";
+  background-color: #f84336;
+  position: absolute;
+  height: 58px;
+  width: 5px;
+  float: right;
+  right: -3px;
+  top: 0;
+}

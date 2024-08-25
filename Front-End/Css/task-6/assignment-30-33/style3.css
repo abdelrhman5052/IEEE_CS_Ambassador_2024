@@ -1,0 +1,37 @@
+.parent{
+  width: 400px;
+  margin: 20px auto;
+}
+.html,
+.css,
+.java{
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+.html ol,
+.css ol{
+  padding-left: 10px;
+  margin: 10px;
+}
+.css ol{
+  list-style-type: upper-roman;
+}
+.html ol li,
+.css ol li{
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+}
+.java ul{
+  padding-left: 0;
+  margin: 10px;
+}
+.java ul li{
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  list-style-position: inside;
+  width: auto;
+}

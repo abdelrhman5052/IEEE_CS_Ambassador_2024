@@ -1,0 +1,19 @@
+.two{
+  background-color: #ccc;
+  padding: 20px;
+  width: 400px;
+  margin: 10px auto;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+.two::first-letter{
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+  padding: 10px;
+  float: left;
+  top: 50%;
+  margin-left: -35px;
+  margin-top: -10px;
+}
