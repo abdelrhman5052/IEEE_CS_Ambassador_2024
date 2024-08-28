@@ -1,0 +1,24 @@
+.assign-1{
+  width: 400px;
+  height: 200px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  transition-duration: 0.5s;
+}
+.assign-1:hover{
+  margin-top: 50px;
+}
+.down{
+  background-color: #ddd;
+  padding: 20px;
+  margin-top: 10px;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+.assign-1:hover .down{
+  margin-top: 30px;
+}

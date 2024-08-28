@@ -1,0 +1,41 @@
+
+.assign-5 .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.assign-5 .parent div{
+  color: white;
+  width: calc(65% / 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 50%;
+}
+.assign-5 .parent{
+  justify-content: space-between;
+}
+.assign-5 .parent .one{
+  background-color: #ff9800;
+  order: 2;
+}
+.assign-5 .parent .two{
+  background-color: #8bc34a;
+  order: 3;
+  align-self: flex-end;
+}
+.assign-5 .parent .three{
+  background-color: #795548;
+  order: 4;
+}
+.assign-5 .parent .four{
+  background-color: #673ab7;
+  order: 1;
+  align-self: flex-end;
+}

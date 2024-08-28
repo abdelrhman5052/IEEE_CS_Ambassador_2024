@@ -1,0 +1,28 @@
+.assign-4 .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.assign-4 .parent{
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.assign-4 .parent div{
+  background-color: #009688;
+  color: white;
+  height: calc(90% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+}
+.assign-4 .parent .two{
+  align-self: flex-start;
+  width: 50%;
+}

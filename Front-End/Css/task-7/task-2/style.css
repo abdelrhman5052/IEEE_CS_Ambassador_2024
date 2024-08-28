@@ -1,0 +1,49 @@
+html {
+  font-family: sans-serif;
+}
+section {
+  display:  flex;
+  width: 80%;
+  margin: 10px auto;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+section .card {
+  text-align: center;
+}
+
+section .card img {
+  border-radius: 50%;
+} 
+
+section .card h1{
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  color: #3b3b3b;
+
+}
+
+section .card p {
+  margin-top: 25px;
+  letter-spacing: 0.7px;
+  line-height: 22px;
+  color: #777;
+}
+
+
+section .card button {
+  all: unset;
+  margin-top: 20px;
+  width: 150px;
+  border: 2px solid rgb(50, 151, 50);
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(42, 177, 42);
+  letter-spacing: 1.3px;
+  text-transform: capitalize;
+}

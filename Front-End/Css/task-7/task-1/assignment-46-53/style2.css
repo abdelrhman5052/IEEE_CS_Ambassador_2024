@@ -1,0 +1,22 @@
+.assign-2 .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.assign-2 .parent{
+    justify-content: space-between;
+    align-content: space-between;
+}
+.assign-2 .parent div{
+    background-color: #f44336;
+    color: white;
+    width: calc(80% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.assign-3 .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.assign-3 .parent{
+  justify-content: space-between;
+}
+.assign-3 .parent div{
+  background-color: #607d8b;
+  color: white;
+  width: calc(80% / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.assign-3 .parent .one{
+  order: 6;
+  align-self: flex-end;
+}
+.assign-3 .parent .two{
+  order: 5;
+}
+.assign-3 .parent .three{
+  order: 2;
+  align-self: flex-start;
+}
+.assign-3 .parent .four{
+  order: 3;
+}
+.assign-3 .parent .five{
+  order: 4;
+}
+.assign-3 .parent .six{
+  order: 1;
+}

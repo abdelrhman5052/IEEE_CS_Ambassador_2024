@@ -1,0 +1,31 @@
+
+.assign-1 div{
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  display: inline-block;
+  margin: 30px;
+  border-radius: 50%;
+  border: 3px solid black;
+  box-shadow: 5px 5px 0 0 #2196f3, -5px -5px 0 0 #e91e63;
+  position: relative;
+  counter-increment: number;
+}
+.assign-1 div::before{
+  content: "Element";
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 38px;
+  left: 22px;
+}
+.assign-1 div::after{
+  content: counter(number);
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  top: -15px;
+  left: 34px;
+}

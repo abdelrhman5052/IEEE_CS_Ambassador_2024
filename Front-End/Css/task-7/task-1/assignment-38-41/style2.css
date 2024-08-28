@@ -1,0 +1,11 @@
+.assign-2 div{
+  width: 100px;
+  height: 100px;
+  background-color: #efefef;
+  margin: 20px auto;
+  box-shadow: inset 0 0 15px 9px #898383;
+  border-top-left-radius: 15px 27px;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 15px 27px;
+}
