@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.assign-2 div{
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, #f44336 50%, #009688 50%, #009688 100%);
+  border-image-slice: 20 fill;
+}
+.assign-2 div input{
+  width: 100%;
+  padding: 20px;
+  background-color: #eee;
+  border: none;
+  caret-color: red;
+}
+.assign-2 div input:focus{
+  outline: none;
+}
